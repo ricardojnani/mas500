@@ -1,0 +1,7 @@
+INFO:__main__:Start Logging
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.mediacloud.org
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.mediacloud.org
+INFO:__main__:Start Logging
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.mediacloud.org
+ERROR:mediacloud.api:Bad HTTP response to https://api.mediacloud.org/api/v2/sentences/count?q=%28+bee+OR+bees%29&fq=publish_date%3A%5B2013-01-01T00%3A00%3A00Z+TO+2014-01-01T00%3A00%3A00Z%7D&fq=media_sets_id%3A1&split=0&key=my_api_key&split_daily=0 : 403 Forbidden
+ERROR:mediacloud.api:	{"error":"Error(s): Invalid API key or authentication cookie. at lib/MediaWords/ActionRole/Throttled.pm line 32.\n"}
